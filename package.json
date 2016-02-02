@@ -1,0 +1,21 @@
+{
+  "name": "lubaba'",
+  "version": "1.0.0",
+  "description": "sample text",
+  "main": "lubu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lubu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "cheerio": "^0.19.0",
+    "ejs": "^0.19.0",
+    "cheerio": "^2.3.3",
+    "express": "^4.13.0",
+    "moment": "^2.10.6",
+    "request": "^2.61.0"
+
+  }
+}

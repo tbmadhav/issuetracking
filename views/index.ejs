@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <style>
+    table, td, tr{
+        border: 1px solid black;
+        border-collapse: collapse;;
+    }
+    tr, td{
+        padding: 15px;
+    }
+    td{
+        text-align: left;;
+    }
+    table#t01 {
+    width: 100%;    
+    background-color: #f1f1c1;
+}
+    </style>
+    <body>
+        <center>
+
+        <table id="t01" style= "width:50%", "height:60%">
+            <h2> Output: <h2>
+                <br>               
+            <tr>
+        
+                <td> Total number of open issues </td>
+                <td><%= data1 %></td>
+            </tr>
+            <tr>
+                <td>  Number of open issues that were opened in the last 24 hours </td>
+                <td><%= data2 %></td>
+            </tr>
+            <tr>
+                <td> Number of open issues that were opened more than 24 hours ago but less than 7 days ago </td>
+                <td><%= data3 %></td>
+            </tr>
+            <tr>
+                <td>  Number of open issues that were opened more than 7 days ago </td>
+                <td><%= data4 %></td>
+
+            </tr>
+        </table>
+    </center>
+         
+    </body>
+</html>
